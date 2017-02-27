@@ -13,6 +13,10 @@
 		6AE363E01E63F5BD009E9E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE363DE1E63F5BD009E9E9D /* Main.storyboard */; };
 		6AE363E21E63F5BD009E9E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE363E11E63F5BD009E9E9D /* Assets.xcassets */; };
 		6AE363E51E63F5BD009E9E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE363E31E63F5BD009E9E9D /* LaunchScreen.storyboard */; };
+		6AE363EE1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE363ED1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.m */; };
+		6AE363F11E63FC3A009E9E9D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE363F01E63FC3A009E9E9D /* Student.m */; };
+		6AE363F41E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE363F31E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.m */; };
+		6AE363F71E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE363F61E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		6AE363E11E63F5BD009E9E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE363E41E63F5BD009E9E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AE363E61E63F5BD009E9E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE363EC1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HZAvoidCrashExtend.h"; sourceTree = "<group>"; };
+		6AE363ED1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HZAvoidCrashExtend.m"; sourceTree = "<group>"; };
+		6AE363EF1E63FC3A009E9E9D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		6AE363F01E63FC3A009E9E9D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		6AE363F21E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AvoidArrayBeyondCrash.h"; sourceTree = "<group>"; };
+		6AE363F31E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AvoidArrayBeyondCrash.m"; sourceTree = "<group>"; };
+		6AE363F51E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AvoidArrayBeyondCrash.h"; sourceTree = "<group>"; };
+		6AE363F61E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AvoidArrayBeyondCrash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				6AE363D91E63F5BD009E9E9D /* AppDelegate.m */,
 				6AE363DB1E63F5BD009E9E9D /* ViewController.h */,
 				6AE363DC1E63F5BD009E9E9D /* ViewController.m */,
+				6AE363EF1E63FC3A009E9E9D /* Student.h */,
+				6AE363F01E63FC3A009E9E9D /* Student.m */,
+				6AE363EC1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.h */,
+				6AE363ED1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.m */,
+				6AE363F21E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.h */,
+				6AE363F31E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.m */,
+				6AE363F51E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.h */,
+				6AE363F61E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.m */,
 				6AE363DE1E63F5BD009E9E9D /* Main.storyboard */,
 				6AE363E11E63F5BD009E9E9D /* Assets.xcassets */,
 				6AE363E31E63F5BD009E9E9D /* LaunchScreen.storyboard */,
@@ -151,8 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE363DD1E63F5BD009E9E9D /* ViewController.m in Sources */,
+				6AE363EE1E63FBEC009E9E9D /* NSObject+HZAvoidCrashExtend.m in Sources */,
+				6AE363F11E63FC3A009E9E9D /* Student.m in Sources */,
+				6AE363F71E64147F009E9E9D /* NSMutableArray+AvoidArrayBeyondCrash.m in Sources */,
 				6AE363DA1E63F5BD009E9E9D /* AppDelegate.m in Sources */,
 				6AE363D71E63F5BD009E9E9D /* main.m in Sources */,
+				6AE363F41E640693009E9E9D /* NSArray+AvoidArrayBeyondCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +331,7 @@
 				6AE363EB1E63F5BD009E9E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
